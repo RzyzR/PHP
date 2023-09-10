@@ -3,9 +3,13 @@
 <h1>Bienvenido a mi página en PHP</h1>
 
 <?php
-    // Código PHP específico de esta página
-    $mensaje = "Hola, mundo!";
-    echo $mensaje;
-?>
+    // Incluir y ejecutar el código PHP desde 'codigo.php'
+    ob_start();
+    include 'fucniones.php';
+    $resultado_codigo = ob_get_clean();
+    
+    // Mostrar el resultado
+    echo $resultado_codigo;
+    ?>
 
 <?php include 'footer.php'; ?>
