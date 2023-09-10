@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Mi Página en PHP</title>
-</head>
-<body>
-    <h1>Bienvenido a mi página en PHP</h1>
+<?php include 'header.php'; ?>
 
-    <?php
-        // Aquí puedes escribir código PHP
-        $mensaje = "Hola, mundo!";
-        echo $mensaje;
-    ?>
+<h1>Bienvenido a mi página en PHP</h1>
 
-</body>
-</html>
+<?php
+    // Código PHP específico de esta página
+    $mensaje = "Hola, mundo!";
+    echo $mensaje;
+?>
+
+<?php include 'footer.php'; ?>
