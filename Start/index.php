@@ -5,7 +5,7 @@
 <?php
     // Incluir y ejecutar el código PHP desde 'codigo.php'
     ob_start();
-    include 'fucniones.php';
+    include 'fuctions.php';
     $resultado_codigo = ob_get_clean();
     
     // Mostrar el resultado
